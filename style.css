@@ -3,12 +3,12 @@
 
 
 html {
-    color: #007afb;
+    color: #007afb !important;
 }
 
 body {
     background: rgb(255, 255, 255);
-/*     border: 2vw solid #007afb; */
+    border: 2vw solid #007afb;
 }
 
 .one {
@@ -29,7 +29,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-img {
+.a {
     position: absolute;
     top: 10vw;
     left: 10vw;
@@ -37,7 +37,7 @@ img {
 }
 
 .call {
-    width: 30vw;
+    width: 40vw;
     padding-top: 4vw;
     padding-bottom: 4vw;
     position: absolute;
@@ -47,9 +47,13 @@ img {
     border: 1vw solid #007afb;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    font-size: 3.5vw;
 }
 
-
+a {
+    color: #007afb !important;
+    text-decoration: none !important;
+}
 
 .email {
     width: 70vw;
@@ -57,9 +61,35 @@ img {
     padding-bottom: 4vw;
     position: absolute;
     border-radius: 10vw;
-    top: 110vw;
+    color: #007afb !important;
+    font-size: 3.5vw;
+    top: 112vw;
     left: 14vw;
     border: 1vw solid #007afb;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+}
+
+.tg {
+    position: absolute;
+    top: 97vw;
+    color: #007afb !important;
+    width: 8vw;
+    left: 68vw;
+}
+
+.whatsapp {
+    position: absolute;
+    top: 97vw;
+    color: #007afb !important;
+    width: 8vw;
+    left: 78vw;
+}
+
+.viber {
+    position: absolute;
+    top: 97vw;
+    color: #007afb !important;
+    width: 8vw;
+    left: 58vw;
 }
