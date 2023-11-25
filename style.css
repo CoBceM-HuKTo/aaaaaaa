@@ -3,7 +3,7 @@
 
 
 html {
-    color: #007afb !important;
+    color: #007afb;
 }
 
 body {
@@ -11,13 +11,26 @@ body {
     border: 2vw solid #007afb;
 }
 
+.visit {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 3vw;
+    right: 2vw;
+    border: 1vw solid #007afb;
+    border-top: none;
+    padding: 2vw;
+    background: #007afb;
+    color: white;
+    padding-bottom: 0.7vw;
+}
+
 .personal {
     color: #007afb;
     position: absolute;
-    top: 135vw;
-    font-size: 2vw;
+    top: 142vw;
+    font-size: 2.2vw;
     font-family: 'Montserrat', sans-serif;
-    left: 24;
+    left: 27vw;
     font-weight: bold;
 }
 
@@ -32,7 +45,7 @@ body {
 
 .two {
     position: absolute;
-    top: 55vw;
+    top: 53vw;
     font-size: 3vw;
     left: 14vw;
     max-width: 72vw;
@@ -51,17 +64,21 @@ body {
     padding-top: 4vw;
     padding-bottom: 4vw;
     position: absolute;
+    color: #007afb;
     border-radius: 10vw;
-    top: 95vw;
+    top: 101vw;
     left: 14vw;
     border: 1vw solid #007afb;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 3.5vw;
+    animation: tell;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 a {
-    color: #007afb !important;
+    color: #007afb;
     text-decoration: none !important;
 }
 
@@ -71,42 +88,176 @@ a {
     padding-bottom: 4vw;
     position: absolute;
     border-radius: 10vw;
-    color: #007afb !important;
+    color: white;
     font-size: 3.5vw;
-    top: 112vw;
+    top: 118vw;
     left: 14vw;
     border: 1vw solid #007afb;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    animation: email;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
 }
 
 .tg {
     position: absolute;
-    top: 97vw;
-    color: #007afb !important;
+    top: 103vw;
     width: 8vw;
     left: 68vw;
+    animation: tg;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
 }
 
 .whatsapp {
     position: absolute;
-    top: 97vw;
-    color: #007afb !important;
+    top: 103vw;
     width: 8vw;
     left: 78vw;
+    animation: wapp;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
 }
 
 .viber {
     position: absolute;
-    top: 97vw;
-    color: #007afb !important;
+    top: 103vw;
     width: 8vw;
     left: 58vw;
+    animation: vb;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
 }
 .slogan {
     position: absolute;
-    top: 132vw;
+    top: 138vw;
     left: 24vw;
     font-family: 'Montserrat', sans-serif;
     font-size: 3vw;
+}
+
+.piar {
+    position: fixed;
+    bottom: 2vw;
+    left: 2vw;
+    width: 96%;
+    height: 10vw;
+    color: white;
+    text-align: center;
+    padding-top: 3vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vw;
+    background: #007afb;
+}
+
+.white {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 2vw;
+    background: white;
+}
+
+@keyframes tell {
+    0% {
+        color: #007afb !important;
+        background: white;
+        border: 1vw solid #007afb;
+    }
+    50% {
+        color: white;
+        background: #007afb;
+        border: 1vw solid white;
+    }
+    100% {
+        color: #007afb !important;
+        background: white;
+        border: 1vw solid #007afb;
+    }
+}
+
+
+@keyframes email {
+    0% {
+        color: white !important;
+        background: #007afb;
+        border: 1vw solid white;
+    }
+    50% {
+        color: #007afb;
+        background: white;
+        border: 1vw solid #007afb;
+    }
+    100% {
+        color: white !important;
+        background: #007afb;
+        border: 1vw solid white;
+    }
+}
+
+
+@keyframes tg {
+    0% {
+        transform: rotate(360deg);
+    }
+    10% {
+        transform: rotate(360deg)
+    }
+    30% {
+        transform: rotate(0);
+    }
+    70% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes wapp {
+    0% {
+        transform: rotate(0);
+    }
+    10% {
+        transform: rotate(0)
+    }
+    30% {
+        transform: rotate(360deg);
+    }
+    70% {
+        transform: rotate(360deg);
+    }
+    90% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+
+@keyframes vb {
+    0% {
+        transform: rotate(0);
+    }
+    10% {
+        transform: rotate(0)
+    }
+    30% {
+        transform: rotate(360deg);
+    }
+    70% {
+        transform: rotate(360deg);
+    }
+    90% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(0);
+    }
 }
