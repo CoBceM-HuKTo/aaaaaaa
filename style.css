@@ -15,9 +15,10 @@ body {
     color: #007afb;
     position: absolute;
     top: 125vw;
-    font-size: 2.5vw;
+    font-size: 2vw;
     font-family: 'Montserrat', sans-serif;
     left: 24;
+    font-weight: bold;
 }
 
 .one {
