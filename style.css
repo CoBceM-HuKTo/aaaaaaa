@@ -1,4 +1,4 @@
-
+Эх
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 
@@ -9,6 +9,15 @@ html {
 body {
     background: rgb(255, 255, 255);
     border: 2vw solid #007afb;
+}
+
+.personal {
+    color: #007afb;
+    position: absolute;
+    top: 125vw;
+    font-size: 2.5vw;
+    font-family: 'Montserrat', sans-serif;
+    left: 24;
 }
 
 .one {
