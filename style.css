@@ -161,6 +161,16 @@ a {
     background: white;
 }
 
+.card {
+    position: absolute;
+    top: 150vw;
+    left: 10vw;
+    border: 0.3vw solid #007afb;
+    width: 80vw;
+}
+
+
+
 @keyframes tell {
     0% {
         color: #007afb !important;
